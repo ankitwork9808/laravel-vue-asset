@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@acwork/laravel-vue-asset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper to resolve paths to assets in a Laravel vue app",
   "main": "asset.js",
   "repository": {

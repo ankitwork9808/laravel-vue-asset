@@ -8,6 +8,9 @@ export const Asset = {
           }
           
           if(import.meta?.env?.VITE_ASSET_URL) {
+            if(src.startsWith("/")){
+              src = src.substring(1)
+            }
             src = import.meta.env.VITE_ASSET_URL+src;
           }else{
               console.error('VITE_ASSET_URL is not defined in .env')
