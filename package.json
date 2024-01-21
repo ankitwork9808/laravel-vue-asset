@@ -1,0 +1,29 @@
+{
+  "private": false,
+  "name": "@acwork/laravel-vue-asset",
+  "version": "1.0.0",
+  "description": "A helper to resolve paths to assets in a Laravel vue app",
+  "main": "asset.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitwork9808/laravel-vue-asset.git"
+  },
+  "keywords": [
+    "laravel",
+    "Vite",
+    "asset",
+    "vuejs",
+    "vue3",
+    "s3",
+    "VITE_ASSET_URL",
+    "ASSET_URL",
+    "AWS_URL",
+    "Helper function"
+  ],
+  "author": "Ankit Chaudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankitwork9808/laravel-vue-asset/issues"
+  },
+  "homepage": "https://github.com/ankitwork9808/laravel-vue-asset#readme"
+}
