@@ -1,9 +1,9 @@
 {
   "private": false,
   "name": "@acwork/laravel-vue-asset",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A helper to resolve paths to assets in a Laravel vue app",
-  "main": "asset.js",
+  "main": "Asset.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ankitwork9808/laravel-vue-asset.git"

@@ -8,7 +8,7 @@ export const Asset = {
           }
           
           if(import.meta?.env?.VITE_ASSET_URL) {
-            if(src.startsWith("/")){
+            if(src?.startsWith("/")){
               src = src.substring(1)
             }
             src = import.meta.env.VITE_ASSET_URL+src;
